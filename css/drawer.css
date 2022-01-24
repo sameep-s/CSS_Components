@@ -1,0 +1,85 @@
+@import "./core.css";
+
+* {
+  font-family: var(--font-body);
+}
+
+body {
+  background-color: var(--secondary);
+  display: inline-block;
+}
+
+hr {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding: 1px 0;
+}
+
+.drawer-wrapper {
+  display: inline-flex;
+  height: 100vh;
+  width: 25rem;
+  min-width: 15vw;
+  flex-direction: column;
+  background-color: white;
+}
+
+.drawer-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0.5rem;
+
+  /* this is the magic */
+  overflow: auto;
+}
+.drawer-headingArea {
+  position: sticky;
+  top: 0rem;
+  background-color: white;
+  padding: 1rem;
+}
+
+.drawer-heading {
+  font-size: 3rem;
+  font-weight: bold;
+  padding-right: 1rem;
+}
+
+.drawer-subHeading {
+  font-size: 1.5rem;
+  color: var(--darker);
+}
+
+.drawer-section {
+  margin-top: 1rem;
+}
+
+.drawer-link {
+  margin: 0.5rem 0;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+
+  transition: 200ms;
+}
+
+.drawer-link:hover {
+  background-color: var(--light-primary);
+}
+.link-icon {
+  /* display: inline-flex; */
+  align-items: center;
+}
+
+.drawer-linkText {
+  font-size: 1.5rem;
+  padding: 0 0 0 2rem;
+}
+
+.drawer-link-1 {
+  display: none;
+}
+
+/*--------------------------- Drawer Ends---------------------------- */

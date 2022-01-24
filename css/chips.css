@@ -1,3 +1,5 @@
+@import "./core.css";
+
 * {
   font-family: var(--font-body);
 }
