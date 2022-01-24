@@ -1,0 +1,17 @@
+body {
+  background-color: var(--light);
+}
+
+.chip-wrapper {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+
+  background-color: white;
+  margin: 10 rem;
+}
+
+.container {
+  background-color: white;
+}
