@@ -2,12 +2,12 @@
 
 :root {
   --primary: #12b9e0;
-  --secondary: #f4f7f7;
+  --secondary: #dfe6e6;
   --success: #51ff49;
   --warning: #faff49;
   --danger: #ff4949;
   --light: #f9f8f8;
-  --dark: #a1a1a1;
+  --dark: #e6e1e1;
   --darker: #636060;
   --font-heading: "Raleway", sans-serif;
   --font-body: "Oxygen", sans-serif;
