@@ -6,18 +6,35 @@
 
 body {
   background-color: var(--secondary);
-  display: inline-block;
 }
 
-hr {
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  padding: 1px 0;
+.body-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 5rem;
+  margin-left: 35vw;
+  background-color: white;
+  border: 1px solid var(--darker);
+  width: 40vw;
+
+  padding: 2rem;
+  border-radius: 1rem;
+  font-size: 3rem;
+  font-weight: lighter;
 }
+
+.wrapper {
+  width: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+/* --------------------------SIDEBAR LEFT */
 
 .drawer-wrapper {
-  display: inline-flex;
+  display: flex;
   height: 100vh;
   width: 25rem;
   min-width: 15vw;
@@ -35,9 +52,12 @@ hr {
 }
 .drawer-headingArea {
   position: sticky;
+  display: flex;
+  flex-direction: column;
   top: 0rem;
   background-color: white;
   padding: 1rem;
+  width: 100%;
 }
 
 .drawer-heading {
@@ -83,3 +103,5 @@ hr {
 }
 
 /*--------------------------- Drawer Ends---------------------------- */
+
+/* stataic,relative,absolute, fixed,sticky. */
