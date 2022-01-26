@@ -1,0 +1,62 @@
+@import "./core.css";
+
+body {
+  background-color: var(--light);
+  font-family: var(--font-body);
+}
+
+.snackbar-wrapper {
+  position: fixed;
+  display: flex;
+  background-color: var(--darker);
+  width: 50rem;
+  padding: 1.5rem;
+  justify-content: space-between;
+  align-content: center;
+  align-self: center;
+  border: none;
+  border-radius: 0.5rem;
+
+  /* positioning */
+  bottom: 5rem;
+  left: 50%;
+  margin-left: -25rem;
+}
+
+.snack-text-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.snack-text {
+  font-size: 1.8rem;
+  color: white;
+  align-content: center;
+}
+
+.snack-b1 {
+  display: inline-flex;
+  background-color: transparent;
+  border: none;
+  font-size: 1.8rem;
+  color: var(--primary);
+  align-content: center;
+}
+
+.snack-b2 {
+  display: inline-flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  font-size: 1.8rem;
+  color: var(--light);
+}
+
+.snack-b1:hover {
+  color: var(--dark-primary);
+}
+
+.snack-b2:hover {
+  color: var(--danger);
+}
