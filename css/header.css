@@ -1,0 +1,49 @@
+@import "../css/core.css";
+
+i {
+  font-size: 4rem !important;
+  color: white;
+}
+
+.wrapper {
+  width: 100vw;
+  height: 6.5rem;
+  background-color: var(--primary);
+}
+
+.header-main {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  /* position: fixed; */
+}
+.header-right-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  font-size: 3rem;
+  font-family: var(--font-heading);
+  color: white;
+}
+
+.header-left-icons {
+  display: flex;
+  margin-left: auto;
+  margin-right: 2rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.material-icons {
+  margin: 0 1rem;
+}
+
+/*  ---------------------*/
+.main-content {
+  margin-top: 5rem;
+  font-size: 7rem;
+  overflow: auto;
+}

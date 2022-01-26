@@ -1,5 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Oxygen&family=Raleway:wght@500&display=swap");
 
+/* 
+    <!-- material icons -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+*/
+
 :root {
   --primary: #12b9e0;
   --light-primary: #b8edfc;
@@ -21,6 +29,7 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: var(--font-body);
 }
 
 hr {
