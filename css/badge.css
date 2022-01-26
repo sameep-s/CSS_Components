@@ -1,0 +1,99 @@
+@import "../css/core.css";
+
+* {
+  font-family: var(--font-body);
+}
+
+body {
+  background-color: var(--light);
+}
+
+.wrapper-main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.showcase-div {
+  background-color: white;
+  display: flex;
+  width: 50%;
+  margin-top: 15vh;
+  border: 0.1rem solid var(--dark);
+  border-radius: 1rem;
+}
+
+.button-area {
+  width: 100%;
+  margin: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /* align-content: flex-start; */
+
+  overflow: auto;
+}
+
+.btn {
+  position: relative;
+  background-color: var(--primary);
+  color: white;
+
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  border: none;
+  margin: 0.5rem 1rem;
+  font-size: 1.5rem;
+
+  transition: 250ms;
+}
+
+.btn:hover {
+  background-color: var(--dark-primary);
+}
+
+/*------------------ button, div complete,-----------------  */
+
+/*------------------------------- Badge-------------------- */
+
+.badge-container {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: -1rem;
+  top: -0.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  z-index: 8;
+  font-size: 1.2rem;
+}
+
+.danger {
+  background-color: var(--danger);
+}
+
+.warning {
+  background-color: var(--warning);
+  color: var(--darker);
+}
+
+.success {
+  background-color: var(--success);
+  color: var(--darker);
+}
+
+.dark {
+  background-color: var(--darker);
+  color: var(--light);
+}
+
+.default {
+  background-color: var(--light);
+  color: black;
+  border: 0.1rem solid var(--darker);
+}
