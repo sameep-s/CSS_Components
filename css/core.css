@@ -12,13 +12,13 @@
   --primary: #12b9e0;
   --light-primary: #b8edfc;
   --dark-primary: #0797b8;
-  --secondary: #dfe6e6;
+  --secondary: #c2c2c2;
   --success: #51ff49;
   --warning: #faff49;
   --danger: #ff4949;
-  --light: #f9f8f8;
-  --dark: #e6e1e1;
-  --darker: #1b1b1b;
+  --light: #f3ecec;
+  --dark: #adadad;
+  --darker: #585757;
   --font-heading: "Raleway", sans-serif;
   --font-body: "Oxygen", sans-serif;
 }
@@ -38,6 +38,7 @@ hr {
   border-left: none;
   border-right: none;
   padding: 1px 0;
+  margin: 0.5rem 0;
 }
 
 h1,
@@ -53,6 +54,7 @@ ul {
   padding: 0;
 }
 
+/* anchor tag default styling removal */
 a {
   text-decoration: none;
   color: inherit;
