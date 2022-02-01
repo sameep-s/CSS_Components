@@ -1,35 +1,39 @@
-@import "../css/core.css";
-
 i {
   font-size: 4rem !important;
   color: white;
 }
 
-.wrapper {
+.header-wrapper {
   width: 100vw;
-  height: 6.5rem;
-  background-color: var(--primary);
 }
 
-.header-main {
+.container-header {
+  background-color: var(--primary);
   display: flex;
   width: 100%;
-  height: 100%;
-  /* position: fixed; */
+  padding: 0.5rem 0;
+  position: fixed;
+  top: 0;
 }
-.header-right-icons {
+
+.header-left-icons {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.logo {
+.icon-menu {
+  display: inline-flex;
+  align-items: center;
+}
+
+.header-logo {
   font-size: 2.5rem;
   font-family: var(--font-heading);
   color: white;
 }
 
-.header-left-icons {
+.header-right-icons {
   display: flex;
   margin-left: auto;
   margin-right: 2rem;
@@ -37,15 +41,15 @@ i {
   align-items: center;
 }
 
-.material-icons {
+.icon-right,
+.icon-left {
   margin: 0 1rem;
 }
 
 /*  ---------------------*/
 .main-content {
   padding: 3rem;
-  margin-top: 5rem;
   font-size: 3rem;
-  overflow-y: scroll;
-  line-height: 4rem;
+  overflow: auto;
+  margin-top: 5rem;
 }
