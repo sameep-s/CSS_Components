@@ -26,6 +26,12 @@ html {
   font-size: 62.5%;
 }
 
+i {
+  font-size: 4rem !important;
+  color: white;
+  cursor: pointer;
+}
+
 * {
   margin: 0;
   padding: 0;
